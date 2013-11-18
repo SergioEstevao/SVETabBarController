@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "587041E4182EC2B700DDE0BD"
-               BuildableName = "libSVETabBarController.a"
-               BlueprintName = "SVETabBarController"
+               BlueprintIdentifier = "58704249182EC44A00DDE0BD"
+               BuildableName = "Example.app"
+               BlueprintName = "Example"
                ReferencedContainer = "container:SVETabBarController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,17 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "587041F4182EC2B800DDE0BD"
-               BuildableName = "SVETabBarControllerTests.xctest"
-               BlueprintName = "SVETabBarControllerTests"
-               ReferencedContainer = "container:SVETabBarController.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "58704249182EC44A00DDE0BD"
+            BuildableName = "Example.app"
+            BlueprintName = "Example"
+            ReferencedContainer = "container:SVETabBarController.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -49,6 +48,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "58704249182EC44A00DDE0BD"
+            BuildableName = "Example.app"
+            BlueprintName = "Example"
+            ReferencedContainer = "container:SVETabBarController.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -58,6 +66,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "58704249182EC44A00DDE0BD"
+            BuildableName = "Example.app"
+            BlueprintName = "Example"
+            ReferencedContainer = "container:SVETabBarController.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

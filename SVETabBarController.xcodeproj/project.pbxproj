@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58063F701838123C005C25BB /* libSVETabBarController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 587041E5182EC2B700DDE0BD /* libSVETabBarController.a */; };
+		58063F73183904B4005C25BB /* SampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58063F72183904B4005C25BB /* SampleTableViewController.m */; };
+		58063F7C183A1BF6005C25BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58063F78183A1BF6005C25BB /* InfoPlist.strings */; };
+		58063F7D183A1BF6005C25BB /* SVETabBarControllerTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58063F7A183A1BF6005C25BB /* SVETabBarControllerTests-Info.plist */; };
+		58063F7E183A1BF6005C25BB /* SVETabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58063F7B183A1BF6005C25BB /* SVETabBarControllerTests.m */; };
 		587041E9182EC2B700DDE0BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587041E8182EC2B700DDE0BD /* Foundation.framework */; };
 		587041EE182EC2B700DDE0BD /* SVETabBarController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 587041ED182EC2B700DDE0BD /* SVETabBarController.h */; };
 		587041F0182EC2B700DDE0BD /* SVETabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587041EF182EC2B700DDE0BD /* SVETabBarController.m */; };
@@ -14,11 +19,23 @@
 		587041F8182EC2B800DDE0BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587041E8182EC2B700DDE0BD /* Foundation.framework */; };
 		587041FA182EC2B800DDE0BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587041F9182EC2B800DDE0BD /* UIKit.framework */; };
 		587041FD182EC2B800DDE0BD /* libSVETabBarController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 587041E5182EC2B700DDE0BD /* libSVETabBarController.a */; };
-		58704203182EC2B800DDE0BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58704201182EC2B800DDE0BD /* InfoPlist.strings */; };
-		58704205182EC2B800DDE0BD /* SVETabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58704204182EC2B800DDE0BD /* SVETabBarControllerTests.m */; };
+		5870424B182EC44A00DDE0BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587041E8182EC2B700DDE0BD /* Foundation.framework */; };
+		5870424C182EC44A00DDE0BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58704214182EC39600DDE0BD /* CoreGraphics.framework */; };
+		5870424D182EC44A00DDE0BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587041F9182EC2B800DDE0BD /* UIKit.framework */; };
+		58704253182EC44A00DDE0BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58704251182EC44A00DDE0BD /* InfoPlist.strings */; };
+		58704255182EC44A00DDE0BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58704254182EC44A00DDE0BD /* main.m */; };
+		58704259182EC44A00DDE0BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58704258182EC44A00DDE0BD /* AppDelegate.m */; };
+		5870425B182EC44A00DDE0BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5870425A182EC44A00DDE0BD /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		58063F6E1838119B005C25BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 587041DD182EC2B700DDE0BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 587041E4182EC2B700DDE0BD;
+			remoteInfo = SVETabBarController;
+		};
 		587041FB182EC2B800DDE0BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 587041DD182EC2B700DDE0BD /* Project object */;
@@ -42,17 +59,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		58063F71183904B4005C25BB /* SampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleTableViewController.h; sourceTree = "<group>"; };
+		58063F72183904B4005C25BB /* SampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTableViewController.m; sourceTree = "<group>"; };
+		58063F7418397E9A005C25BB /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		58063F7518397E9A005C25BB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		58063F7618397E9A005C25BB /* SVETabBarController.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SVETabBarController.podspec; sourceTree = "<group>"; };
+		58063F79183A1BF6005C25BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58063F7A183A1BF6005C25BB /* SVETabBarControllerTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SVETabBarControllerTests-Info.plist"; sourceTree = "<group>"; };
+		58063F7B183A1BF6005C25BB /* SVETabBarControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVETabBarControllerTests.m; sourceTree = "<group>"; };
 		587041E5182EC2B700DDE0BD /* libSVETabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVETabBarController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		587041E8182EC2B700DDE0BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		587041EC182EC2B700DDE0BD /* SVETabBarController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVETabBarController-Prefix.pch"; sourceTree = "<group>"; };
 		587041ED182EC2B700DDE0BD /* SVETabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVETabBarController.h; sourceTree = "<group>"; };
 		587041EF182EC2B700DDE0BD /* SVETabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVETabBarController.m; sourceTree = "<group>"; };
 		587041F5182EC2B800DDE0BD /* SVETabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVETabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		587041F6182EC2B800DDE0BD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		587041F9182EC2B800DDE0BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		58704200182EC2B800DDE0BD /* SVETabBarControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SVETabBarControllerTests-Info.plist"; sourceTree = "<group>"; };
-		58704202182EC2B800DDE0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		58704204182EC2B800DDE0BD /* SVETabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVETabBarControllerTests.m; sourceTree = "<group>"; };
+		58704214182EC39600DDE0BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5870424A182EC44A00DDE0BD /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58704250182EC44A00DDE0BD /* Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Example-Info.plist"; sourceTree = "<group>"; };
+		58704252182EC44A00DDE0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58704254182EC44A00DDE0BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58704256182EC44A00DDE0BD /* Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
+		58704257182EC44A00DDE0BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58704258182EC44A00DDE0BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5870425A182EC44A00DDE0BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,14 +105,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		58704247182EC44A00DDE0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58063F701838123C005C25BB /* libSVETabBarController.a in Frameworks */,
+				5870424C182EC44A00DDE0BD /* CoreGraphics.framework in Frameworks */,
+				5870424D182EC44A00DDE0BD /* UIKit.framework in Frameworks */,
+				5870424B182EC44A00DDE0BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58063F77183A1BF6005C25BB /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				58063F78183A1BF6005C25BB /* InfoPlist.strings */,
+				58063F7A183A1BF6005C25BB /* SVETabBarControllerTests-Info.plist */,
+				58063F7B183A1BF6005C25BB /* SVETabBarControllerTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		587041DC182EC2B700DDE0BD = {
 			isa = PBXGroup;
 			children = (
+				58063F7418397E9A005C25BB /* LICENSE */,
+				58063F7518397E9A005C25BB /* README.md */,
+				58063F7618397E9A005C25BB /* SVETabBarController.podspec */,
 				587041EA182EC2B700DDE0BD /* SVETabBarController */,
-				587041FE182EC2B800DDE0BD /* SVETabBarControllerTests */,
+				58063F77183A1BF6005C25BB /* Tests */,
+				5870424E182EC44A00DDE0BD /* Example */,
 				587041E7182EC2B700DDE0BD /* Frameworks */,
 				587041E6182EC2B700DDE0BD /* Products */,
 			);
@@ -93,6 +148,7 @@
 			children = (
 				587041E5182EC2B700DDE0BD /* libSVETabBarController.a */,
 				587041F5182EC2B800DDE0BD /* SVETabBarControllerTests.xctest */,
+				5870424A182EC44A00DDE0BD /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +159,7 @@
 				587041E8182EC2B700DDE0BD /* Foundation.framework */,
 				587041F6182EC2B800DDE0BD /* XCTest.framework */,
 				587041F9182EC2B800DDE0BD /* UIKit.framework */,
+				58704214182EC39600DDE0BD /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,25 +177,30 @@
 		587041EB182EC2B700DDE0BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				587041EC182EC2B700DDE0BD /* SVETabBarController-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		587041FE182EC2B800DDE0BD /* SVETabBarControllerTests */ = {
+		5870424E182EC44A00DDE0BD /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				58704204182EC2B800DDE0BD /* SVETabBarControllerTests.m */,
-				587041FF182EC2B800DDE0BD /* Supporting Files */,
+				58704257182EC44A00DDE0BD /* AppDelegate.h */,
+				58704258182EC44A00DDE0BD /* AppDelegate.m */,
+				5870425A182EC44A00DDE0BD /* Images.xcassets */,
+				5870424F182EC44A00DDE0BD /* Supporting Files */,
+				58063F71183904B4005C25BB /* SampleTableViewController.h */,
+				58063F72183904B4005C25BB /* SampleTableViewController.m */,
 			);
-			path = SVETabBarControllerTests;
+			path = Example;
 			sourceTree = "<group>";
 		};
-		587041FF182EC2B800DDE0BD /* Supporting Files */ = {
+		5870424F182EC44A00DDE0BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				58704200182EC2B800DDE0BD /* SVETabBarControllerTests-Info.plist */,
-				58704201182EC2B800DDE0BD /* InfoPlist.strings */,
+				58704250182EC44A00DDE0BD /* Example-Info.plist */,
+				58704251182EC44A00DDE0BD /* InfoPlist.strings */,
+				58704254182EC44A00DDE0BD /* main.m */,
+				58704256182EC44A00DDE0BD /* Example-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,9 +225,9 @@
 			productReference = 587041E5182EC2B700DDE0BD /* libSVETabBarController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		587041F4182EC2B800DDE0BD /* SVETabBarControllerTests */ = {
+		587041F4182EC2B800DDE0BD /* Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5870420B182EC2B800DDE0BD /* Build configuration list for PBXNativeTarget "SVETabBarControllerTests" */;
+			buildConfigurationList = 5870420B182EC2B800DDE0BD /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
 				587041F1182EC2B800DDE0BD /* Sources */,
 				587041F2182EC2B800DDE0BD /* Frameworks */,
@@ -176,10 +238,28 @@
 			dependencies = (
 				587041FC182EC2B800DDE0BD /* PBXTargetDependency */,
 			);
-			name = SVETabBarControllerTests;
+			name = Tests;
 			productName = SVETabBarControllerTests;
 			productReference = 587041F5182EC2B800DDE0BD /* SVETabBarControllerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58704249182EC44A00DDE0BD /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5870426E182EC44B00DDE0BD /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				58704246182EC44A00DDE0BD /* Sources */,
+				58704247182EC44A00DDE0BD /* Frameworks */,
+				58704248182EC44A00DDE0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58063F6F1838119B005C25BB /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = 5870424A182EC44A00DDE0BD /* Example.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -189,6 +269,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Sérgio Estêvão";
+				TargetAttributes = {
+					587041F4182EC2B800DDE0BD = {
+						TestTargetID = 58704249182EC44A00DDE0BD;
+					};
+				};
 			};
 			buildConfigurationList = 587041E0182EC2B700DDE0BD /* Build configuration list for PBXProject "SVETabBarController" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -196,6 +281,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 587041DC182EC2B700DDE0BD;
 			productRefGroup = 587041E6182EC2B700DDE0BD /* Products */;
@@ -203,7 +289,8 @@
 			projectRoot = "";
 			targets = (
 				587041E4182EC2B700DDE0BD /* SVETabBarController */,
-				587041F4182EC2B800DDE0BD /* SVETabBarControllerTests */,
+				587041F4182EC2B800DDE0BD /* Tests */,
+				58704249182EC44A00DDE0BD /* Example */,
 			);
 		};
 /* End PBXProject section */
@@ -213,7 +300,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58704203182EC2B800DDE0BD /* InfoPlist.strings in Resources */,
+				58063F7C183A1BF6005C25BB /* InfoPlist.strings in Resources */,
+				58063F7D183A1BF6005C25BB /* SVETabBarControllerTests-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58704248182EC44A00DDE0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58704253182EC44A00DDE0BD /* InfoPlist.strings in Resources */,
+				5870425B182EC44A00DDE0BD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,13 +329,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58704205182EC2B800DDE0BD /* SVETabBarControllerTests.m in Sources */,
+				58063F7E183A1BF6005C25BB /* SVETabBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58704246182EC44A00DDE0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58704259182EC44A00DDE0BD /* AppDelegate.m in Sources */,
+				58063F73183904B4005C25BB /* SampleTableViewController.m in Sources */,
+				58704255182EC44A00DDE0BD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		58063F6F1838119B005C25BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 587041E4182EC2B700DDE0BD /* SVETabBarController */;
+			targetProxy = 58063F6E1838119B005C25BB /* PBXContainerItemProxy */;
+		};
 		587041FC182EC2B800DDE0BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 587041E4182EC2B700DDE0BD /* SVETabBarController */;
@@ -247,10 +359,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		58704201182EC2B800DDE0BD /* InfoPlist.strings */ = {
+		58063F78183A1BF6005C25BB /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				58704202182EC2B800DDE0BD /* en */,
+				58063F79183A1BF6005C25BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58704251182EC44A00DDE0BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58704252182EC44A00DDE0BD /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -290,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -322,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -333,7 +453,6 @@
 			buildSettings = {
 				DSTROOT = /tmp/SVETabBarController.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SVETabBarController/SVETabBarController-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -345,7 +464,6 @@
 			buildSettings = {
 				DSTROOT = /tmp/SVETabBarController.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SVETabBarController/SVETabBarController-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -356,6 +474,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -369,6 +488,7 @@
 				);
 				INFOPLIST_FILE = "SVETabBarControllerTests/SVETabBarControllerTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -377,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -386,7 +507,54 @@
 				GCC_PREFIX_HEADER = "SVETabBarController/SVETabBarController-Prefix.pch";
 				INFOPLIST_FILE = "SVETabBarControllerTests/SVETabBarControllerTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		5870426F182EC44B00DDE0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Example/Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58704270182EC44B00DDE0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				INFOPLIST_FILE = "Example/Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -409,14 +577,25 @@
 				5870420A182EC2B800DDE0BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5870420B182EC2B800DDE0BD /* Build configuration list for PBXNativeTarget "SVETabBarControllerTests" */ = {
+		5870420B182EC2B800DDE0BD /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5870420C182EC2B800DDE0BD /* Debug */,
 				5870420D182EC2B800DDE0BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5870426E182EC44B00DDE0BD /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5870426F182EC44B00DDE0BD /* Debug */,
+				58704270182EC44B00DDE0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
