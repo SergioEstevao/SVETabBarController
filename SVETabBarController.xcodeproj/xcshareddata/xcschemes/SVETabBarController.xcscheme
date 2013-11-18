@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "587041F4182EC2B800DDE0BD"
-               BuildableName = "SVETabBarControllerTests.xctest"
+               BuildableName = "Tests.xctest"
                BlueprintName = "Tests"
                ReferencedContainer = "container:SVETabBarController.xcodeproj">
             </BuildableReference>
