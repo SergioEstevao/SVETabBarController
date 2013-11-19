@@ -26,7 +26,7 @@
 @interface SVETabBarController ()  {
 
 }
-@property (strong, nonatomic) IBOutlet UIView *container;
+@property (strong, nonatomic) UIView *container;
 @end
 
 @implementation SVETabBarController {
