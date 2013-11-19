@@ -24,7 +24,7 @@
 
 @protocol SVETabBarControllerDelegate <NSObject>
 @optional
-- (BOOL)tabBarController:(SVETabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController NS_AVAILABLE_IOS(3_0);
+- (BOOL)tabBarController:(SVETabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController;
 - (void)tabBarController:(SVETabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController;
 @end
 
